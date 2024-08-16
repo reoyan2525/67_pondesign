@@ -199,6 +199,22 @@ main-visual
   color: var(--main-WhiteColor);
 
 }
+.main-visual--subPage{
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: var(--main-WhiteColor);
+}
+@media screen and (max-width: 767px) {
+  .main-visual--subPage{
+    height: 180px;
+  }
+}
 .mv-inner{
   width: 100%;
   position: absolute;
@@ -222,6 +238,16 @@ main-visual
     font-size: 44px;
   }
 }
+.mv-ttl--subPage{
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .mv-ttl--subPage{
+    font-size: 32px;
+  }
+}
 .mv-subTtl{
   margin-top: 20px;
   font-size: 32px;
@@ -231,6 +257,15 @@ main-visual
     font-size: 16px;
   }
 }
+.mv-subTtl--subPage{
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .mv-subTtl--subPage{
+    font-size: 12px;
+  }
+}
+
 .c-btn{
   position: relative;
   width: 240px;
